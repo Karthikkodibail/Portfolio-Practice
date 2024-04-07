@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karthi Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="website icon" type="png" href="images/pngtree-letter-k-logo-png-image_3989946.png" />
+    <script
+      src="https://kit.fontawesome.com/c5fce36715.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/logo.png" class="logo" alt="logo" /> -->
+          <h1 class="logo"><span class="k">K</span>arthik</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi, Iam <span>Karthik</span><br />
+            From kerala, India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------About--------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              After plus two then i joind ITI as a Ac mechanic then i could not continue Ac technician role because of pandemic. During that time, I developed an interest in coding.<br>I was looking into opportunities to improve my skills then i got to know about i hub it solution.Then I joined the company and contributed on a few of its projects.   
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Website interfaces</li>
+                <li>
+                  <span>Frontend Development</span><br />Design and Build
+                  website interfaces using React js
+                </li>
+                <li>
+                  <span>Backend Development</span><br />Using spring Developing
+                  Web application
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>1 Year</span><br />UI/UX Design</li>
+                <li><span>1 Year</span><br />Frontend Developer</li>
+                <li><span>1 Year</span><br />Spring Developer</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2019-2021</span><br />ITI Madhani institute Ullal</li>
+                <li>
+                  <span>2022</span><br />Internship in iHub It Solution Mudipu
+                </li>
+                <li>
+                  <span>2022</span><br />Full stack Developer in iHub IT
+                  Solution Mudipu
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------------Service------------------------- -->
+
+    <div id="#sevices">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium odit qui voluptatum et dolor tenetur veniam beatae
+              error vel. Qui ipsa exercitationem quibusdam molestias
+              dignissimos.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Developer</h2>
+            <p>
+              I learned how to use JavaScript, CSS, HTML, and React as a Javascript library and applied it to a project. <br>
+              <br>
+              And i have mentioned it in project section...
+              
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Backend Developer</h2>
+            <p>
+              I Studied Java and Spring before learning about Spring Boot. In Spring Boot, I discovered Rest API. I subsequently worked on other projects.
+
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------portfolio------------------------- */ -->
+
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="">
+          <div class="layer">
+            <h3>Apart Planner</h3>
+            <p>This page is for people moving to a new city for career,school,etc.That individual will make bookings for months or years      </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+
+        <div class="work">
+          <img src="images/work-2.png" alt="">
+          <div class="layer">
+            <h3>i Hub It Solution</h3>
+            <p>The entire UI and UX Design was altered while I worked on the Hub IT solution.  </p>
+              <a href="http://www.ihubonline.co/ " target="_blank"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+
+        <div class="work">
+          <img src="images/work-3.png" alt="">
+          <div class="layer">
+            <h3>Trio Bakes</h3>
+            <p> When i wass working in i hub it solution  i got a project From <b>Trio Bakes</b> to Make them a webpage to their Shop</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <!-----------------------------contact---------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p><i class="fa-solid fa-envelope"></i>Contact@karthikkodibail916!gmail.com  </p>
+            <p><i class="fa-solid fa-phone"></i>9526674016</p>
+            <div class="social-icon">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn-2">Download CV</a>
+            
+          </div>
+          <div class="contact-right">
+
+
+            <form action="">
+              <input type="text" name="name" placeholder="Your Name required">
+              <input type="email" name="email" placeholder="Your Email required">
+            <textarea name="message" rows="6"></textarea>
+            <button type="submit" class="btn btn-2">Submit</button>
+            
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @Karthi </p>
+      </div>
+    </div>
+
+
+
+<script src="portfolio.js"></script>
+  </body>
+</html>
